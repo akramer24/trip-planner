@@ -14,14 +14,58 @@
  
   }
 #title {
-    text-align: center;    
+    color: black;
+    margin-left: 44px
 }
 
 #list {
     display: block;
     width: 300px;
     height: 300px;
-    background-color: grey;
+    background-color: #808080;
     position:relative;
     z-index: 50;
+    opacity: 0.4;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px black;
+}
+
+
+#selected {
+    display: block;
+    width: 200px;
+    height: 100px;
+    background-color: #808080;
+    position:relative;
+    margin-left: 4.5%;
+    /* margin-right: 50%; */
+    z-index: 50;
+    opacity: 0.4;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px black;
+}
+
+#navBar {
+display: block;
+position: relative;
+width: 100vw;
+border-color: black;
+box-shadow: 3px 3px 5px black;
+
+
+}
+
+#navList{
+    display: flex;
+    /* display:inline; */
+    text-align: center;
+     list-style: none;
+    
+}
+
+.navItem {
+    margin: 5px;
+
+
+
 }
