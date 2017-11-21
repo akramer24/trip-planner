@@ -14,5 +14,5 @@ const rest = buildMarker('restaurants', [-73.9911, 40.7359]);
 rest.addTo(map);
 const hotel = buildMarker('hotels', [-74.009, 40.705]);
 hotel.addTo(map);
-const fun = buildMarker('activities', [-73.9911, 40.7359]);
+const fun = buildMarker('activities', [-74.0544, 40.7033]);
 fun.addTo(map);
